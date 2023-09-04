@@ -1,0 +1,394 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    box-shadow: none;
+    border-style: none;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-family: poppins;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+nav #logo{
+    width: 250px;
+    height: 50px;
+}
+
+
+header{
+    background-color: #F66881;
+}
+
+nav img{
+   width: 40px;
+   height: 40px;
+}
+
+nav ul{
+    display: flex;
+    
+}
+
+nav li{
+    padding-left: 50px;
+    text-align: center;
+}
+
+
+
+nav input{
+    width: 559px;
+    height: 47px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    padding-left: 20px;
+    font-family: poppins;
+
+}
+
+#banner{
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-items: end;
+    background: linear-gradient(132deg, #EA4160 0%, rgba(131, 2, 2, 0.50) 100%);
+    
+}
+
+
+
+
+
+#banner img{
+    width: 317px;
+    height: 487px;
+
+}
+
+
+
+#banner h1{
+    color: white;
+    font-family: poppins;
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section2{
+    margin-top: 120px;
+    display: flex;
+}
+
+.produtos #card3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.produtos #card3 h3{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    height: 50px;
+    max-width: 260px;
+    
+
+}
+
+.produtos #card3 h2{
+    color: #2A5E01;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+
+}
+
+.produtos #card3 button{
+    width: 152px;
+    height: 44px;
+    border-radius: 8px;
+    background: #F66881;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+
+#card3 img:hover{
+    cursor: pointer;
+    opacity: 80%;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1)0.5s;
+    transform: scale(1.1);
+}
+
+#card3 button:hover{
+    cursor: pointer;
+    background: #EA4160;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) 0.4s;
+}
+
+.produtos{
+    display: flex;
+    margin-bottom: 40px;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#card3 img{
+    width: 184px;
+    height: 300px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.filtros{
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    border-right: #EA4160 solid 3px;
+    flex-wrap: wrap;
+    height: 1100px;
+}
+
+.filtros h4{
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.filtros h2{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+#cor{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#color_line{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+#cor_bola{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-right: 8px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+
+#cor_bola:hover{
+    opacity: 0.5;
+}
+
+#cor_bola:nth-child(1){
+    background-color: red;
+}
+
+#cor_bola:nth-child(2){
+    background-color: blue;
+}
+
+#cor_bola:nth-child(3){
+    background-color: green;
+}
+
+#cor_bola:nth-child(4){
+    background-color: pink;
+}
+
+#cor_bola:nth-child(5){
+    background-color: cyan;
+}
+
+#color_line:nth-child(3) #cor_bola:nth-child(1){
+    background-color: black;
+}
+
+#color_line:nth-child(3) #cor_bola:nth-child(2){
+    background-color: white;
+}
+
+
+#color_line:nth-child(3) #cor_bola:nth-child(3){
+    background-color: yellow;
+}
+
+#color_line:nth-child(3) #cor_bola:nth-child(4){
+    background-color: purple;
+}
+
+#color_line:nth-child(3) #cor_bola:nth-child(5){
+    background-color: gray;
+}
+
+
+
+
+#check{
+    display: flex;
+    font-size: 11px;
+
+    padding-top: 8px;
+}
+
+#check h2{
+    margin-left: 5px;
+}
+
+#check input{
+    width: 20px;
+    height: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+#tamanho{
+    display: flex;
+    flex-direction: column;
+}
+
+#tamanho h3 a{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 8px;
+}
+
+.rateds{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#rated_line{
+    display: flex;
+}
+
+
+
+#value input{
+    width: 46px;
+    height: 28px;
+    padding-left: 4px;
+    border: 1.5px solid #B4B4B4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+}
+
+#value button{
+    border-radius: 8px;
+    background: #F66881;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 29px;
+    height: 28px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+#inputs{
+    display: flex;
+}
+
+#min{
+    margin-right: 8px;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#max{
+    color: #000;
+
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+#max button{
+    margin-left: 8px;
+    
+}
+
+#max button:hover{
+   background-color: #EA4160;
+   transition: cubic-bezier(0.19, 1, 0.22, 1) 0.4s;
+    cursor: pointer;
+}
+
+
+#borda{
+    border: #EA4160 1px solid;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
