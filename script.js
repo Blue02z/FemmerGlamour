@@ -16,7 +16,7 @@ let popUp = document.getElementById("pop-up")
 let containerConta = document.querySelector(".container-conta")
 let conta = document.getElementById("conta")
 let favNoti = document.getElementById("popUpNoti")
-
+let mostrarMenos = document.getElementById("mostrar_menos")
 
 
 pesquisa.addEventListener("click", function(){
@@ -50,6 +50,11 @@ botao_mais.addEventListener("click", function(){
     botao_mais.classList.remove("active")
 })
 
+mostrarMenos.addEventListener("click", function(){
+    categoria_container2.classList.remove("active")
+    categoria_container.style = "display:flex"
+    botao_mais.classList.add("active")
+})
 
 
 conta.addEventListener("mouseover", function(){
@@ -73,7 +78,7 @@ carrinhoo.forEach((botao) => {
             </span>
             </span> <h3>Add no carrinho</h3>` 
             botao.style = "background-color: transparent;color:black;outline:black 2px solid; transition:0.3s;";
-            popUp.innerHTML = ` <p>${i -1}</p>`;
+            popUp.innerHTML = ` <p>${i - 1}</p>`;
 
         }else{
             popUp.innerHTML = ` <p>${i++}</p>`;
